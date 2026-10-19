@@ -21,6 +21,7 @@ Ask something the PDF doesn't cover and it says it could not find the answer, in
 ```bash
 pip install -r requirements.txt
 export GEMINI_API_KEY=your_key          # Windows: set GEMINI_API_KEY=your_key
+python rag.py sample.pdf "How long do customers have to ask for a refund?"
 python rag.py your-notes.pdf "your question"
 python rag.py your-notes.pdf            # or ask several questions interactively
 ```
